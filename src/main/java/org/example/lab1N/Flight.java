@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab1N;
 
 public class Flight {
     String destination;
@@ -54,6 +54,7 @@ public class Flight {
                 "\n\tdistance = " + distance +
                 "\n\tnumber = " + number +
                 "\n\t" + price +
-                "\n\t" + time ;
+                "\n\t" + time +
+                "\n\tTravel time: " + (time.getArrivalMinutes() - time.getDepartureMinutes()) + " minutes";
     }
 }

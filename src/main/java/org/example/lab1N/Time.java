@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab1N;
 
 public class Time {
     HM departure = new HM();
@@ -18,6 +18,14 @@ public class Time {
         } else{
             departure.setMinutes(number);
         }
+    }
+
+    public int getArrivalMinutes() {
+        return this.arrival.hours*60+this.arrival.minutes;
+    }
+
+    public int getDepartureMinutes() {
+        return this.departure.hours*60+this.departure.minutes;
     }
 
     @Override

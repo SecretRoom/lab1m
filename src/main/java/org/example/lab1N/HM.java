@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab1N;
 
 public class HM {
     int hours;
