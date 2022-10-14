@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<albums>
+    <album year="1982" title="title1" group="group1" studio="studio1" />
+    <album year="1968" title="title2" group="group2" studio="studio2" />
+    <album year="2005" title="title3" group="group3" studio="studio3" />
+    <album year="1999" title="title4" group="group4" studio="studio4" />
+    <album year="1995" title="title5" group="group1" studio="studio4" />
+    <album year="1987" title="title6" group="group2" studio="studio3" />
+    <album year="1999" title="title7" group="group3" studio="studio4" />
+    <album year="1995" title="title8" group="group4" studio="studio1" />
+    <album year="1982" title="title9" group="group1" studio="studio2" />
+    <album year="2007" title="title10" group="group2" studio="studio3" />
+</albums>

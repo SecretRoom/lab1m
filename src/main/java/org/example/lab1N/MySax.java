@@ -147,7 +147,6 @@ public class MySax extends DefaultHandler {
                 if(time1 == time2) return 0;
                 return time1 < time2 ? 1 : -1;
             }).limit(3).forEach(flight1 -> {
-                    System.out.println(flight1);
                     Element flight = doc.createElement("flight");
                     Element destination = doc.createElement("destination");
                     destination.setTextContent(flight1.destination);
@@ -187,9 +186,7 @@ public class MySax extends DefaultHandler {
 
                     root.appendChild(flight);
                 });
-        //DOMSource source = new DOMSource(doc);
         Source source = new DOMSource(doc);
-        //StreamResult result = new StreamResult();
         Result result = new StreamResult(file);
         transformer.transform(source, result);
     }
